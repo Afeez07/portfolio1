@@ -36,7 +36,7 @@ export default function Work() {
       desc: "Scaled daily ad spend with predictable ROAS for a fashion brand.",
       metric: "1,579 Purchases (₦5.7M Spend)",
       tools: ["Meta Ads", "CAPI", "A/B Testing"],
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop",
+      image: "/project-1.jpg",
       featured: true
     },
     {
@@ -46,7 +46,7 @@ export default function Work() {
       desc: "Comprehensive data exploration and visualization of pandemic impact.",
       metric: "Actionable Global Insights",
       tools: ["SQL", "Tableau", "Python"],
-      image: "https://images.unsplash.com/photo-1584483766114-2cea6facdf57?q=80&w=800&auto=format&fit=crop",
+      image: "/project-2.jpg",
       link: "https://github.com/Afeez07/Covid-19-Project"
     },
     {
@@ -56,7 +56,7 @@ export default function Work() {
       desc: "Full-stack dashboard application built at the speed of thought.",
       metric: "Rapid MVP Deployment",
       tools: ["React", "AI Tooling", "Tailwind"],
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800&auto=format&fit=crop",
+      image: "/project-3.jpg",
       link: "https://saas-client-dashboard.netlify.app/"
     },
     {
@@ -66,7 +66,7 @@ export default function Work() {
       desc: "Statistical breakdown of tournament performance and player metrics.",
       metric: "Sports Data Visualization",
       tools: ["Python", "Pandas", "Matplotlib"],
-      image: "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?q=80&w=800&auto=format&fit=crop",
+      image: "/project-4.jpg",
       link: "https://github.com/Afeez07/Naija-Afcon"
     },
     {
@@ -76,7 +76,7 @@ export default function Work() {
       desc: "Professional web presence for SW Drill drilling solutions.",
       metric: "High-Performance UI",
       tools: ["React", "Vite", "Tailwind"],
-      image: "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?q=80&w=800&auto=format&fit=crop",
+      image: "/project-5.jpg",
       link: "https://swdrill.vercel.app/"
     },
     {
@@ -86,7 +86,7 @@ export default function Work() {
       desc: "Optimized campaign structure driving massive messaging volume.",
       metric: "8,947 Leads (₦13.6M Spend)",
       tools: ["CBO", "Lookalikes", "Retargeting"],
-      image: "https://images.unsplash.com/photo-1553877522-43269d4ea984?q=80&w=800&auto=format&fit=crop",
+      image: "/project-6.jpg",
       featured: true
     }
   ];

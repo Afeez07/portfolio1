@@ -50,7 +50,7 @@ export default function Hero() {
         </h1>
 
         <div className="hero-elem flex flex-wrap gap-4 mb-16">
-          <a href="#work" className="group flex items-center gap-2 bg-dark text-white px-8 py-3.5 rounded-full font-sans font-medium transition-all hover:bg-dark/80">
+          <a href="#work" className="group flex items-center gap-2 bg-dark text-white px-8 py-3.5 rounded-full font-sans font-medium transition-all hover:bg-dark/80 focus-visible:ring-2 focus-visible:ring-dark focus-visible:ring-offset-2 focus-visible:outline-none">
             View My Work
             <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
           </a>

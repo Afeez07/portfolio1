@@ -49,13 +49,13 @@ export default function Contact() {
           </p>
 
           <div className="contact-elem flex gap-4 justify-center mb-8">
-            <a href="https://www.linkedin.com/in/afeez-onabekun" target="_blank" rel="noreferrer" className="w-12 h-12 rounded-full border border-dark/20 flex items-center justify-center hover:bg-dark hover:text-white transition-colors">
+            <a href="https://www.linkedin.com/in/afeez-onabekun" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile" className="w-12 h-12 rounded-full border border-dark/20 flex items-center justify-center hover:bg-dark hover:text-white focus-visible:ring-2 focus-visible:ring-dark focus-visible:outline-none transition-colors">
               <Linkedin size={20} />
             </a>
-            <a href="https://github.com/Afeez07" target="_blank" rel="noreferrer" className="w-12 h-12 rounded-full border border-dark/20 flex items-center justify-center hover:bg-dark hover:text-white transition-colors">
+            <a href="https://github.com/Afeez07" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile" className="w-12 h-12 rounded-full border border-dark/20 flex items-center justify-center hover:bg-dark hover:text-white focus-visible:ring-2 focus-visible:ring-dark focus-visible:outline-none transition-colors">
               <Github size={20} />
             </a>
-            <a href="mailto:afeez.onabekun@gmail.com" className="w-12 h-12 rounded-full border border-dark/20 flex items-center justify-center hover:bg-dark hover:text-white transition-colors">
+            <a href="mailto:afeez.onabekun@gmail.com" aria-label="Send an email" className="w-12 h-12 rounded-full border border-dark/20 flex items-center justify-center hover:bg-dark hover:text-white focus-visible:ring-2 focus-visible:ring-dark focus-visible:outline-none transition-colors">
               <Mail size={20} />
             </a>
           </div>
