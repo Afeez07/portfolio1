@@ -34,7 +34,7 @@ export default function Skills() {
       desc: "I find the story in the numbers. From SQL queries to interactive dashboards, I turn messy data into clear decisions."
     },
     {
-      title: "Vibe Coding",
+      title: "Website Development",
       tools: ["Cursor AI", "Claude", "GPT-4", "Replit", "Bolt", "Lovable", "v0", "GitHub Copilot", "React", "Tailwind CSS", "Node.js", "Supabase"],
       desc: "I build MVPs and internal tools at the speed of thought — using AI-assisted development to go from idea to deployed app in days, not months."
     },

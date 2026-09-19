@@ -34,7 +34,7 @@ export default function Hero() {
       {/* Left Content (60%) */}
       <div className="w-full md:w-[60%] flex flex-col items-start z-10 pt-12 md:pt-0">
         <p className="hero-elem font-mono text-sm tracking-[0.2em] uppercase text-dark/70 mb-6">
-          Data Analyst • Vibe Coder • Meta Ads Specialist
+          Data Analyst • Website Developer • Meta Ads Specialist
         </p>
 
         <h1 className="hero-elem font-heading font-bold text-6xl md:text-7xl lg:text-8xl leading-[1.1] tracking-tighter mb-8">

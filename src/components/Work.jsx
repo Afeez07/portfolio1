@@ -51,7 +51,7 @@ export default function Work() {
     },
     {
       title: "SaaS Client Dashboard",
-      category: "Vibe Coding",
+      category: "Website Development",
       catColor: "bg-purple-100 text-purple-800",
       desc: "Full-stack dashboard application built at the speed of thought.",
       metric: "Rapid MVP Deployment",
@@ -71,7 +71,7 @@ export default function Work() {
     },
     {
       title: "Hydrogeology Services",
-      category: "Vibe Coding",
+      category: "Website Development",
       catColor: "bg-purple-100 text-purple-800",
       desc: "Professional web presence for SW Drill drilling solutions.",
       metric: "High-Performance UI",
