@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Space+Grotesk:wght@300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-sans: 'DM Sans', sans-serif;
+  --font-heading: 'Space Grotesk', sans-serif;
+  --font-mono: 'Space Mono', monospace;
+}
+
+body {
+  background-color: #F5F3EE;
+  color: #111111;
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-base {
+  background-color: #F5F3EE;
+}
+
+/* Ensure strong, crisp text rendering */
+p, li, span, blockquote {
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background-color: #E63B2E;
+  color: #FFFFFF;
+}
+
+/* Print optimizations for resume */
+@media print {
+  nav, footer, .no-print {
+    display: none !important;
+  }
+  body {
+    background: #FFFFFF !important;
+    color: #000000 !important;
+  }
+}

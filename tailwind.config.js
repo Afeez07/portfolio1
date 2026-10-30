@@ -1,26 +1,23 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
       colors: {
-        base: "#F5F3EE",
+        paper: "#F5F3EE",
         dark: "#111111",
         accent: "#E63B2E",
         surface: "#FFFFFF",
         surfaceAlt: "#E8E4DD",
       },
       fontFamily: {
-        sans: ['"DM Sans"', 'sans-serif'],
-        heading: ['"Space Grotesk"', 'sans-serif'],
-        mono: ['"Space Mono"', 'monospace'],
-      },
-      transitionTimingFunction: {
-        'spring': 'cubic-bezier(0.34, 1.56, 0.64, 1)',
-        'magnetic': 'cubic-bezier(0.25, 0.46, 0.45, 0.94)',
+        sans: ['var(--font-sans)', '"DM Sans"', 'sans-serif'],
+        heading: ['var(--font-heading)', '"Space Grotesk"', 'sans-serif'],
+        mono: ['var(--font-mono)', '"Space Mono"', 'monospace'],
       },
       letterSpacing: {
         tightest: '-.075em',
@@ -34,4 +31,4 @@ export default {
     },
   },
   plugins: [],
-}
+};

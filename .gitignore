@@ -1,4 +1,27 @@
+# Dependencies
 node_modules/
+.pnp
+.pnp.js
+
+# Testing & Scratch
+scratch/
+coverage/
+
+# Next.js
+.next/
+out/
+build/
 dist/
-.env
+
+# Misc
 .DS_Store
+*.pem
+*.log
+
+# Local environment
+.env*.local
+.env
+
+# Vercel
+.vercel
+
